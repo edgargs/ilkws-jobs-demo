@@ -1,0 +1,13 @@
+micronaut:
+    application:
+        name: ilkws-jobs
+
+service:
+    path: /api/{apiversion}/repos/{organization}/{repository}/packages
+    organization: micronaut
+    repository: profiles
+    apiversion: v1
+
+micronaut:
+  server:
+    port: 8086
